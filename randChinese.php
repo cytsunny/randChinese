@@ -206,4 +206,15 @@ $char_array = array(
 );
 
 $char_count = count($char_array);
-echo $char_count;
+
+function randChinese($length = 20) {
+    global $char_count, $char_array;
+
+    $return_string = '';
+    for ($i=0; $i<$length; $i++)
+        $return_string .= $char_array[mt_rand(0, $char_count-1)];
+
+    return $return_string;
+}
+
+echo randChinese();
