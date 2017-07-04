@@ -208,14 +208,15 @@ Class RandChinese {
         '爨','驪','鬱','鸞','籲',
     );
 
-    
 
-    public static function phase($length = 20) {
-        $char_count = count(self::$char_array);
+
+    public static function phase($length = 20, $complexity = 500) {
+        if ( $compolexity > count(self::$char_array) )
+            $complexity = count(self::$char_array);
 
         $return_string = '';
         for ($i=0; $i<$length; $i++)
-            $return_string .= self::$char_array[mt_rand(0, $char_count-1)];
+            $return_string .= self::$char_array[mt_rand(0, $complexity-1)];
 
         return $return_string;
     }
