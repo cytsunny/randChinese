@@ -1,5 +1,5 @@
 {
-    "name": "cytsunny/randChinese",
+    "name": "cytsunny/rand-chinese",
     "type": "library",
     "description": "中文亂文生成器",
     "keywords": ["log","logging"],
