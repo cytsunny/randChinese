@@ -4,5 +4,5 @@
     "description": "中文亂文生成器",
     "keywords": ["log","logging"],
     "homepage": "https://github.com/cytsunny/randChinese",
-    "license": "LGPL3.0",
+    "license": "LGPL3.0"
 }
