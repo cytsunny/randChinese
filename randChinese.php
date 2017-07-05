@@ -211,7 +211,7 @@ Class RandChinese {
 
 
     public static function phase($length = 20, $complexity = 500) {
-        if ( $compolexity > count(self::$char_array) )
+        if ( $complexity > count(self::$char_array) )
             $complexity = count(self::$char_array);
 
         $return_string = '';
