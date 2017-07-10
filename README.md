@@ -19,7 +19,13 @@
 > 朽乏斤允叉企十妃划巧毛任只舌吁冬低乙友弘
 
 ## 如何使用這個生成器？
-下載 randChinese.php，然後：
+你可以直接下載 randChinese.php，或使用composer:
+
+```
+composer require cytsunny/randChinese
+```
+
+然後：
 
 ```php
 include ('path/to/your/download/randChinese.php') //只有你知道你把代碼下載到哪裡。請自行填寫正確的路徑。
@@ -34,7 +40,7 @@ echo RandChinese::phase(20, 2000); //後面的數字決定複雜程度，可以�
 ## 未來可能會增加的功能
 實際做出來的時間視乎有多少人想要，以及多少人使用這個生成器。
 
-1. 支援 composer
+1. ~~支援 composer~~
 
 2. 增加「加入標點符號」這個選項
 
